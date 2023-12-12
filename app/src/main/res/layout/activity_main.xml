@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/bSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="140sp"
+        android:layout_marginTop="380dp"
+        android:onClick="onClickSignIn"
+        android:text="Войти"
+        android:backgroundTint="#c7333b"
+        android:textColor="#000000"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="240dp"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="150dp"
+        android:hint="Email"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80sp"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#eb6327"
+
+        android:onClick="onClickSignUp"
+        android:text="Зарегистрироваться"
+        android:textColor="#000000"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="200sp"
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150sp"
+        android:layout_marginTop="300sp"
+        android:backgroundTint="#ad9886"
+        android:onClick="onClickStart"
+        android:text="Перейти"
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150sp"
+        android:layout_marginTop="350sp"
+        android:backgroundTint="#ad9886"
+        android:onClick="onClickSignOut"
+        android:text="Выход"
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>
